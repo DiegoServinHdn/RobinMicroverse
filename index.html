@@ -21,7 +21,34 @@
     - The freeCodeCamp Team
 
     -->
+    <h1 id = "title">Title</h1>
+    <P id = "description">this is a new page</P>
     <p>hello world, we are developers!</p>
+    <form id="survey-form">
+      <label id="name-label">
+        name:
+      <input type="text" id="name" pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$" required placeholder="this is the name field">
+    </label>
+    <label id="email-label">
+      email:
+      <input placeholder="this is the email field" type="email" id="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" required>
+    </label>  
+    <label id="number-label">
+      number:
+      <input placeholder="this is the number field" type="number" id="number" required min="0" max="10">
+    </label>
+     <select id="dropdown">
+       <option>hello</option>
+       <option>bye</option>
+     </select>
+     <input type="radio" name="thesamename" value="Bye">
+     <input type="radio" name="thesamename" value="HI">
+     <input type="checkbox" name="chack" value="a">
+     <input type="checkbox" name="chack" value="b">
+     <input type="checkbox" name="chack" value="c">
+     <textarea></textarea>
+     <input type="submit" id="submit">
+    </form>
 
     <script  src="js/index.js"></script>
   </body>
